@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185b1bdd-1d74-4df9-b1c2-1351afd061de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DescontosStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
+    <list default="true" id="185b1bdd-1d74-4df9-b1c2-1351afd061de" name="Changes" comment="Escrevendo os steps do BDD">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DescontosStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DescontosStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,25 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Visualizar código de desconto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/desconto.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="TesteSelenium" />
-      <option name="NAME_FILTER" value="^Visualizar código de desconto$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Visualizar código de desconto$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Visualizar código de desconto" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Visualizar o codigo de desconto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/descontos.feature" />
@@ -125,6 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DescontosStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="steps.DescontosStep" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteSelenium" />
       <extension name="coverage">
@@ -133,11 +129,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_333\jre" />
       <option name="PACKAGE_NAME" value="runner" />
       <option name="MAIN_CLASS_NAME" value="runner.RunCucumberTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="JUnit.DescontosStep" />
         <item itemvalue="Cucumber Java.Scenario: Visualizar codigo de desconto" />
         <item itemvalue="Cucumber Java.Scenario: Visualizar o codigo de desconto" />
         <item itemvalue="Cucumber Java.Feature: desconto" />
-        <item itemvalue="Cucumber Java.Scenario: Visualizar código de desconto" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662736123197</updated>
     </task>
+    <task id="LOCAL-00001" summary="Escrevendo os steps do BDD">
+      <created>1662754462594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662754462594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +180,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Escrevendo os steps do BDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escrevendo os steps do BDD" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TesteSelenium$RunCucumberTest.ic" NAME="RunCucumberTest Coverage Results" MODIFIED="1662745922319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
