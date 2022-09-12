@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185b1bdd-1d74-4df9-b1c2-1351afd061de" name="Changes" comment="Escrevendo os steps do BDD">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+    <list default="true" id="185b1bdd-1d74-4df9-b1c2-1351afd061de" name="Changes" comment="criando page objects">
+      <change afterPath="$PROJECT_DIR$/src/test/java/support/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DescontosStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DescontosStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662754462594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="criando page objects">
+      <created>1662926519350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662926519350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Escrevendo os steps do BDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escrevendo os steps do BDD" />
+    <MESSAGE value="criando page objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando page objects" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TesteSelenium$RunCucumberTest.ic" NAME="RunCucumberTest Coverage Results" MODIFIED="1662745922319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
