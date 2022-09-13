@@ -12,10 +12,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
         glue = {"steps"},
         features = "src/test/resources/features",
-        plugin = {},
-        stepNotifications = true
-//        tags = "~@ignore",
-
+        plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/cucumber/"},
+        stepNotifications = true,
+        tags = "@cadastro-sucesso"
 )
 
 public class RunCucumberTest {
@@ -29,6 +28,7 @@ public class RunCucumberTest {
     }
     @AfterClass
     public static void stop() {
-        driver.quit();
+
+       driver.quit();
     }
 }
