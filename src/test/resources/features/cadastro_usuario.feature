@@ -9,4 +9,4 @@
       E acesso a tela de cadastro de usuario
       Quando preencho o formulario de cadastro
       E clico em registrar
-      Entao vejo a mensagem de cadastro realizado com sucesso
+      Entao vejo cadastro realizado com sucesso
